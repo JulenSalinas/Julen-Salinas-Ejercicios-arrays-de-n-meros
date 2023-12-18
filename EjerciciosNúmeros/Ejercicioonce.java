@@ -1,6 +1,6 @@
 public class Ejercicioonce {
     
-    // Función que verifica si un número es primo
+    // Función que verifica si un número es primo [numero primo = número únicamete divisible entre 1 y si mismo]
     static boolean esPrimo(int numero) {
         if (numero <= 1) {
             return false;  // Números menores o iguales a 1 no son primos
